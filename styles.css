@@ -1,0 +1,56 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0629db;
+    box-sizing: border-box;
+  }
+  
+  /* Fixed navbar styling */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for navbar links */
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for navbar links */
+  .navbar a:hover {
+    background-color: #555;
+    font-size: larger;
+  }
+  h1 {
+    font-size: 36px;
+  }
+
+ 
+  p:hover{
+    font-size: larger;
+    font-weight: 100;
+  }
+ 
+  .content {
+    padding-top: 60px; 
+    text-align: center;
+    background-color: rgb(122, 228, 228) ;
+    padding: 40px;
+    height: 100%;
+  }
+
+  .aa:hover{
+    font-size: larger;
+  }
